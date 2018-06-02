@@ -32,7 +32,17 @@
             <td>slice:1:5</td>
             <td>{{ arreglo | slice:1:5}}</td>
         </tr>
-
+        <tr>
+            <!-- aqui va a rellenar con 0 la parte que no tenga numeros -->
+            <th>{{PI}}</th>
+            <td>number:'3.0-0'</td>
+            <td>{{ PI | number:'3.0-0'}}</td>
+        </tr>
+        <tr>
+            <th>{{PI}}</th>
+            <td>number:'1.0-2'</td>
+            <td>{{ PI | number:'1.0-2'}}</td>
+        </tr>
     </tbody>
 </table>
 
