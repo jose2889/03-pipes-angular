@@ -10,7 +10,7 @@ import { reject } from 'q';
 })
 export class AppComponent {
   title = 'Jose Hernandez';
-
+  activar:boolean = true;
   arreglo = [1,2,3,4,5,6,7,8,9,10];
 
   PI = Math.PI;

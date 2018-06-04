@@ -99,9 +99,17 @@
             <td>Date:'MMMM - dd'</td>
             <td>{{ fecha | date:'MMMM - dd' }}</td>
         </tr>
+        <tr>
+            <th>{{title}}</th>
+            <td>contrasena:{{activar}}
+                <button (click)=" activar = !activar" class="btn btn-outline-primary">Activar/Desactivar</button>
+            </td>
+            <td>{{ title | contrasena }}</td>
+        </tr>
     </tbody>
 </table>
 
+contrasena
 <h4>Slice</h4>
 
 <ul>
