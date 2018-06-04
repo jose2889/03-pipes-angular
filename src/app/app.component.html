@@ -104,7 +104,7 @@
             <td>contrasena:{{activar}}
                 <button (click)=" activar = !activar" class="btn btn-outline-primary">Activar/Desactivar</button>
             </td>
-            <td>{{ title | contrasena }}</td>
+            <td>{{ title | contrasena:activar }}</td>
         </tr>
     </tbody>
 </table>
